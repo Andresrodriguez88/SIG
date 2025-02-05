@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,23 +12,32 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: #f4f4f4;
         }
         .container {
             width: 60%;
             border: 2px solid black;
             padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
         }
         .title {
             margin-bottom: 20px;
+            font-size: 24px;
+            color: #2c3e50;
         }
         .content {
             display: flex;
             justify-content: center;
+            gap: 20px;
         }
         .image, .map {
             width: 45%;
             border: 2px solid black;
             padding: 10px;
+            background: #ecf0f1;
+            border-radius: 10px;
         }
         .image img {
             width: 100%;
@@ -37,18 +45,19 @@
         }
         iframe {
             width: 100%;
-            height: 200px;
+            height: 250px;
             border: 0;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Floresta</h1>
+        <h1 class="title">Centro Comercial Cafam Floresta</h1>
         <div class="content">
             <div class="image">
                 <p>Imagen</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Cafam_Floresta.jpg" alt="Centro Comercial Cafam Floresta">
+                <img src="https://bogota.gov.co/sites/default/files/styles/1050px/public/2021-11/cafam-floresta.jpg" alt="Centro Comercial Cafam Floresta">
             </div>
             <div class="map">
                 <p>Mapa</p>
