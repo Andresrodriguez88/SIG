@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barrio Cafam - Bogotá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 60%;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+        }
+        .image, .map {
+            width: 45%;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Floresta</h1>
+        <div class="content">
+            <div class="image">
+                <p>Imagen</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Cafam_Floresta.jpg" alt="Centro Comercial Cafam Floresta">
+            </div>
+            <div class="map">
+                <p>Mapa</p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.676660893367!2d-74.08552162505844!3d4.687464841136592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f998746cb8d4f%3A0x67a6d5e5b0b1b8fc!2sCafam!5e0!3m2!1ses!2sco!4v1707058299517!5m2!1ses!2sco" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
