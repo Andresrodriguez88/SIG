@@ -1,72 +1,16 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barrio Cafam - Bogotá</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 60%;
-            border: 2px solid black;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-        }
-        .title {
-            margin-bottom: 20px;
-            font-size: 24px;
-            color: #2c3e50;
-        }
-        .content {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .image, .map {
-            width: 45%;
-            border: 2px solid black;
-            padding: 10px;
-            background: #ecf0f1;
-            border-radius: 10px;
-        }
-        .image img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        iframe {
-            width: 100%;
-            height: 250px;
-            border: 0;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="title">Centro Comercial Cafam Floresta</h1>
-        <div class="content">
-            <div class="image">
-                <p>Imagen</p>
-                <img src="https://bogota.gov.co/sites/default/files/styles/1050px/public/2021-11/cafam-floresta.jpg" alt="Centro Comercial Cafam Floresta">
-            </div>
-            <div class="map">
-                <p>Mapa</p>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.676660893367!2d-74.08552162505844!3d4.687464841136592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f998746cb8d4f%3A0x67a6d5e5b0b1b8fc!2sCafam!5e0!3m2!1ses!2sco!4v1707058299517!5m2!1ses!2sco" 
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<html>
+    <head>
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <link rel=""stylesheet" href="estilos.css"
+         <title>Barrio Floresta</title>
+    <head>
+    <body>
+        <div id="map"></div>
+    </body>
+    <script type="module" src="programa.js"></script>
+    </html>
